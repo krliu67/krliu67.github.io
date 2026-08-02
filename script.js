@@ -212,6 +212,11 @@ const renderSiteContent = () => {
   setText("#profile-affiliation", profile.affiliation);
   setText("#profile-email-note", profile.emailNote);
 
+  const scholarLink = document.querySelector("#profile-scholar-link");
+  if (scholarLink && profile.links?.scholar) {
+    scholarLink.href = profile.links.scholar;
+  }
+
   const githubLink = document.querySelector("#profile-github-link");
   if (githubLink && profile.links?.github) {
     githubLink.href = profile.links.github;

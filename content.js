@@ -24,17 +24,18 @@ window.defaultSiteContent = {
   pageTitle: "Kangrui Liu | RA@EPIB UMD",
   profile: {
     name: "Kangrui Liu",
-    role: "Research Assistant@EPIB, M.S.@JPSM",
+    role: "PhD student in Biostatistics, co-advised by Dr. Yan Li and Dr. Tianzhou Ma",
     affiliation: "University of Maryland, College Park",
     emailNote: "Email: A [at] B, where A = krliu67 and B = umd.edu",
     birthYear: 2001,
     links: {
+      scholar: "https://scholar.google.com/citations?user=CRD0argAAAAJ&hl=en",
       github: "https://github.com/krliu67",
       linkedin: "https://www.linkedin.com/in/kangrui-liu/"
     }
   },
   about: [
-    "I am currently a Research Assistant working with Dr. Tianzhou Ma and Dr. Yan Li in the Department of Epidemiology and Biostatistics at the University of Maryland. I received my M.S. from the Joint Program in Survey Methodology at the University of Maryland.",
+    "I am a PhD student in Biostatistics, co-advised by Dr. Yan Li and Dr. Tianzhou Ma at the University of Maryland. I also received my M.S. from the Joint Program in Survey Methodology at Maryland.",
     "I am interested in developing statistical methods that can draw credible conclusions from complex health data and apply them in real-world scenarios.",
     "I’m always happy to collaborate. If you’re interested in working together, feel free to reach out to me via email."
   ],
@@ -312,8 +313,8 @@ window.defaultSiteContent = {
   },
   footer: {
     text: "Powered by",
-    linkLabel: "Codex",
-    linkUrl: "https://chatgpt.com/codex"
+    linkLabel: "Myself",
+    linkUrl: "#"
   },
   visitorMap: {
     enabled: true,

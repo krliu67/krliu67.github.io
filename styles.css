@@ -175,6 +175,10 @@ h3 {
   font-weight: 700;
 }
 
+#profile-scholar-link {
+  font-size: 0.82rem;
+}
+
 .hero-links svg {
   width: 20px;
   height: 20px;
