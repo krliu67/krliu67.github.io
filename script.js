@@ -236,9 +236,9 @@ const renderSiteContent = () => {
 
   const publicationsList = document.querySelector("#publications-list");
   if (publicationsList && Array.isArray(content.publications)) {
-    publicationsList.innerHTML = content.publications
-      .map((item) => `<article class="list-item"><p>${item}</p></article>`)
-      .join("");
+    publicationsList.innerHTML = `<ol class="publication-list">${content.publications
+      .map((item) => `<li>${item}</li>`)
+      .join("")}</ol>`;
   }
 
   setText("#collaborations-heading", content.collaborationsHeading);

@@ -331,3 +331,11 @@ window.defaultSiteContent = {
     counterLabel: "Page Views"
   }
 };
+
+// Publications displayed on the website. Edit this list when a paper's status changes.
+window.defaultSiteContent.publications = [
+  "Liang, M.*, Ye, Z.*, Velma, G.*, <strong>Liu, K.</strong>, et al. <em>\"Population-specific dementia risk prediction using deep transfer learning in diverse populations.\"</em> <a href=\"https://doi.org/10.1038/s41746-026-03065-8\" target=\"_blank\" rel=\"noreferrer\"><em>npj Digital Medicine</em></a>, 2026.",
+  "<strong>Liu, K.</strong>*, Wang, L.*, Li, Y. <em>\"Gradient-Boosted Pseudo-Weighting: Methods for Population Inference from Nonprobability Samples.\"</em> <a href=\"https://arxiv.org/abs/2508.00089\" target=\"_blank\" rel=\"noreferrer\">[Under Review]</a>, 2026+.",
+  "Strassle, P. D., <strong>Liu, K.</strong>, ..., Shenassa, E. <em>\"Capturing allostatic load in the National Institutes of Health All of Us Research Program: definitions and recommendation.\"</em> [Submitted to <em>Psychoneuroendocrinology</em>], 2026+.",
+  "<strong>Liu, K.</strong>, Strassle, P., ..., Ma, T. <em>\"Multi-ancestry genetic and multi-omics analyses reveal a reproducible genetic architecture of allostatic load across physiological systems.\"</em> [Under Review], 2026+."
+];
