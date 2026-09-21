@@ -41,7 +41,11 @@ const getSiteContent = () => {
       analytics: {
         ...(defaults.analytics || {}),
         ...(parsed.analytics || {})
-      }
+      },
+      // Do not let an older empty local draft hide newly published news items.
+      news: Array.isArray(parsed.news) && parsed.news.length
+        ? parsed.news
+        : (defaults.news || [])
     };
   } catch {
     return defaults;
