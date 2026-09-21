@@ -234,6 +234,13 @@ const renderSiteContent = () => {
 
   setText("#publications-note", content.publicationsNote);
 
+  const newsList = document.querySelector("#news-list");
+  if (newsList && Array.isArray(content.news)) {
+    newsList.innerHTML = content.news
+      .map((item) => `<article class="list-item"><p>${item}</p></article>`)
+      .join("");
+  }
+
   const publicationsList = document.querySelector("#publications-list");
   if (publicationsList && Array.isArray(content.publications)) {
     publicationsList.innerHTML = `<ol class="publication-list">${content.publications

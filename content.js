@@ -339,3 +339,8 @@ window.defaultSiteContent.publications = [
   "Strassle, P. D., <strong>Liu, K.</strong>, ..., Shenassa, E. <em>\"Capturing allostatic load in the National Institutes of Health All of Us Research Program: definitions and recommendation.\"</em> [Submitted to <em>Psychoneuroendocrinology</em>], 2026+.",
   "<strong>Liu, K.</strong>, Strassle, P., ..., Ma, T. <em>\"Multi-ancestry genetic and multi-omics analyses reveal a reproducible genetic architecture of allostatic load across physiological systems.\"</em> [Under Review], 2026+."
 ];
+
+// News coverage displayed on the website.
+window.defaultSiteContent.news = [
+  "<a href=\"https://dbknews.com/2026/09/17/umd-ai-tool-dementia-risks-minority-groups/\" target=\"_blank\" rel=\"noreferrer\">New UMD AI tool helps detect dementia risks in minority groups</a>. <em>The Diamondback</em>, September 17, 2026."
+];

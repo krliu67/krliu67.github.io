@@ -326,13 +326,16 @@ h3 {
 }
 
 .collaborations-plain {
-  padding-top: 8px;
+  padding-top: 18px;
 }
 
 .collaborations-note-plain {
-  margin: 0 0 8px;
+  margin-top: 4px;
   color: #ff7b72;
-  font-size: 0.85rem;
+}
+
+.collaborations-card {
+  border-left: 3px solid rgba(86, 182, 255, 0.6);
 }
 
 .content-card,
