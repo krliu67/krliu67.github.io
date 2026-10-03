@@ -342,5 +342,5 @@ window.defaultSiteContent.publications = [
 
 // News coverage displayed on the website.
 window.defaultSiteContent.news = [
-  "<a href=\"https://dbknews.com/2026/09/17/umd-ai-tool-dementia-risks-minority-groups/\" target=\"_blank\" rel=\"noreferrer\">New UMD AI tool helps detect dementia risks in minority groups</a>. <em>The Diamondback</em>, September 17, 2026."
+  "<a href=\"https://dbknews.com/2026/09/17/umd-ai-tool-dementia-risks-minority-groups/#:~:text=Kangrui%20Liu%2C%20a%20biostatistics%20doctoral%20student%20who%20helped%20verify%20the%20data%E2%80%99s%20accuracy%2C%20said%20learning%20about%20different%20factors%20that%20affect%20predictions%20for%20the%20disease%20was%20enlightening.\" target=\"_blank\" rel=\"noreferrer\">New UMD AI tool helps detect dementia risks in minority groups</a>. <em>The Diamondback</em>, September 17, 2026."
 ];
