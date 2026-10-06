@@ -26,7 +26,7 @@ window.defaultSiteContent = {
     name: "Kangrui Liu",
     role: "PhD student in Biostatistics, co-advised by Dr. Yan Li and Dr. Tianzhou Ma",
     affiliation: "University of Maryland, College Park",
-    emailNote: "Email: A [at] B, where A = krliu67 and B = umd.edu",
+    email: "krliu67@umd.edu",
     birthYear: 2001,
     links: {
       scholar: "https://scholar.google.com/citations?user=CRD0argAAAAJ&hl=en",
@@ -35,7 +35,7 @@ window.defaultSiteContent = {
     }
   },
   about: [
-    "I am a PhD student in Biostatistics, co-advised by Dr. Yan Li and Dr. Tianzhou Ma at the University of Maryland. I also received my M.S. from the Joint Program in Survey Methodology at Maryland.",
+    "I am a PhD student in Biostatistics, co-advised by <a href=\"https://jpsm.umd.edu/facultyprofile/li/yan\" target=\"_blank\" rel=\"noreferrer\">Dr. Yan Li</a> and <a href=\"https://sph.umd.edu/people/tianzhou-ma\" target=\"_blank\" rel=\"noreferrer\">Dr. Tianzhou Ma</a> at the University of Maryland. I also received my M.S. from the Joint Program in Survey Methodology at Maryland.",
     "I am interested in developing statistical methods that can draw credible conclusions from complex health data and apply them in real-world scenarios.",
     "I’m always happy to collaborate. If you’re interested in working together, feel free to reach out to me via email."
   ],
@@ -54,7 +54,7 @@ window.defaultSiteContent = {
     fallback:
       "I could not find a strong match in the current website data. Try asking about research interests, collaborations, publications, training, or tools."
   },
-  publicationsNote: "* indicates co-authors.",
+  publicationsNote: "* indicates equal contribution.",
   publications: [
     "<strong>Kangrui Liu*</strong>, Lingxiao Wang*, Yan Li. “Gradient-Boosted Pseudo-Weighting: Methods for Population Inference from Nonprobability Samples.” <em>Submitted to Journal of Survey Statistics and Methodology</em>.",
     "Menglu Liang*, Z. Ye*, G. Velma*, <strong>Kangrui Liu</strong>, ..., Tianzhou Ma. “Population-Specific Risk Prediction for Alzheimer's Disease and Related Dementia in Racial and Ethnic Minority Groups Using Deep Transfer Learning.” <em>Submitted to The Lancet Public Health</em>.",
@@ -302,7 +302,7 @@ window.defaultSiteContent = {
   collaborations: [
     {
       date: "2023-12",
-      html: "In my methodological work, I collaborate with <a href=\"https://jpsm.umd.edu/facultyprofile/li/yan\" target=\"_blank\" rel=\"noreferrer\">Dr. Yan Li</a> and <a href=\"https://as.virginia.edu/faculty-profile/lingxiao-wang\" target=\"_blank\" rel=\"noreferrer\">Dr. Lingxiao Wang</a> on population inference. I also collaborate with <a href=\"https://sph.umd.edu/people/tianzhou-ma\" target=\"_blank\" rel=\"noreferrer\">Dr. Tianzhou Ma</a>, <a href=\"https://sph.umd.edu/people/edmond-d-shenassa\" target=\"_blank\" rel=\"noreferrer\">Dr. Edmond D. Shenassa</a>, <a href=\"https://sph.umd.edu/people/menglu-liang\" target=\"_blank\" rel=\"noreferrer\">Dr. Menglu Liang</a>, <a href=\"https://sph.umd.edu/people/paula-strassle\" target=\"_blank\" rel=\"noreferrer\">Dr. Paula Strassle</a>, and members of <a href=\"https://sites.google.com/umd.edu/malab/people\" target=\"_blank\" rel=\"noreferrer\">Ma Lab</a> on health-related applications."
+      html: "My methodological research spans the <a href=\"https://sph.umd.edu/research-impact/laboratories-projects-and-programs/external-validity-improvement-epidemiologic-analyses-eviea\" target=\"_blank\" rel=\"noreferrer\">External Validity Improvement for Epidemiologic Analyses (EVIEA)</a> research group, where I collaborate with <a href=\"https://jpsm.umd.edu/facultyprofile/li/yan\" target=\"_blank\" rel=\"noreferrer\">Dr. Yan Li</a> and <a href=\"https://as.virginia.edu/faculty-profile/lingxiao-wang\" target=\"_blank\" rel=\"noreferrer\">Dr. Lingxiao Wang</a> on population inference, and the <a href=\"https://sites.google.com/umd.edu/malab/\" target=\"_blank\" rel=\"noreferrer\">Precision Health Intelligence (Phi <em>&phi;</em>) Lab</a>, where I work under the guidance of <a href=\"https://sph.umd.edu/people/tianzhou-ma\" target=\"_blank\" rel=\"noreferrer\">Dr. Tianzhou Ma</a> and <a href=\"https://sph.umd.edu/people/menglu-liang\" target=\"_blank\" rel=\"noreferrer\">Dr. Menglu Liang</a>. My applied research is conducted within the <a href=\"https://sph.umd.edu/research-impact/laboratories-projects-and-programs/allostatic-load-and-health-al-health-working-group\" target=\"_blank\" rel=\"noreferrer\">Allostatic Load and Health (AL-Health) Working Group</a>, under the guidance of <a href=\"https://sph.umd.edu/people/tianzhou-ma\" target=\"_blank\" rel=\"noreferrer\">Dr. Tianzhou Ma</a>, <a href=\"https://sph.umd.edu/people/edmond-d-shenassa\" target=\"_blank\" rel=\"noreferrer\">Dr. Edmond D. Shenassa</a>, <a href=\"https://sph.umd.edu/people/menglu-liang\" target=\"_blank\" rel=\"noreferrer\">Dr. Menglu Liang</a>, and <a href=\"https://sph.umd.edu/people/paula-strassle\" target=\"_blank\" rel=\"noreferrer\">Dr. Paula Strassle</a>."
     }
   ],
   timelineEnd: "Now",

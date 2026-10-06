@@ -196,7 +196,8 @@ const renderVisitorMap = (content) => {
 const renderSiteContent = () => {
   const content = getSiteContent();
 
-  document.title = content.pageTitle || document.title;
+  const pageName = document.querySelector('.site-nav [aria-current="page"]')?.textContent.trim();
+  document.title = pageName ? `${pageName} | ${content.profile?.name || "Kangrui Liu"}` : (content.pageTitle || document.title);
 
   const metaDescription = document.querySelector('meta[name="description"]');
   if (metaDescription && content.metaDescription) {
@@ -214,7 +215,10 @@ const renderSiteContent = () => {
   setText("#profile-name", profile.name);
   setText("#profile-role", profile.role);
   setText("#profile-affiliation", profile.affiliation);
-  setText("#profile-email-note", profile.emailNote);
+  const contactLink = document.querySelector("#profile-contact-link");
+  if (contactLink && profile.email) {
+    contactLink.href = `mailto:${profile.email}`;
+  }
 
   const scholarLink = document.querySelector("#profile-scholar-link");
   if (scholarLink && profile.links?.scholar) {
